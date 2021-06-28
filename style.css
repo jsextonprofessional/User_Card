@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+    min-height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.container{
+    height: 600px;
+    width: 70%;
+    align-items: center;
+    margin: 20px 100px auto 180px;
+}
+.colblue{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(3, 176, 189);
+}
+.colwhite{
+    height: 460px;
+    mid-width: 460px;
+    border: 5px solid rgb(194, 194, 194);
+}
+.dot{
+    height: 180px;
+    width: 180px;
+    background-color: rgb(194, 194, 194);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+#usericon{
+    height: 170px;
+    width: 170px;
+    position: relative;
+    bottom: 104px;
+    right: 78px;
+}
+#username h1{
+    margin: 5px auto 10px 30px;
+    padding-bottom: 40px;
+    position: relative;
+    bottom: 60px;
+    left: 30px;
+}
+#location{
+    display: flex;
+    position: relative;
+    bottom: 70px;
+}
+#mapmarker{
+    margin: 0 20px 10px 50px;
+    width: 30px;
+}
+h2{
+    margin: 15px auto 10px 10px;
+}
+#titles {
+    margin: 5px auto 10px 50px;
+    position: relative;
+    top: -60px;
+}
+#bio {
+    margin: 5px auto 10px 50px;
+    position: relative;
+    top: -60px;
+}
+#edit{
+    margin: 5px auto auto 50px;
+    position: relative;
+    top: -60px;
+}
+#gear{
+    margin-right: 10px;
+    height: 17px;
+    width: 17px;
+}
+a{
+    padding-bottom: 5px;
+}
+h1  {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+}
+h2{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+p{
+
+}
+a{
+    color: cornflowerblue;
+    margin-left: 5px;
+}
